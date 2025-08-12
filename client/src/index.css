@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Outfit:wght@100..900&display=swap');
+*{
+  font-family:   "Outfit", sans-serif;
+;
+}
+.rub{
+ font-family: "Bebas Neue", sans-serif;
+}
+.slider{
+    -webkit-appearance: none;
+    height: 100%;
+    background: transparent;
+
+}
+.slider::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  background-image: url(/assets/slide_icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; /* cover can crop SVG */
+  border: none;
+  cursor: pointer;;
+
+}
+.bg-layer{
+  background-image: url(/assets/bg_layer.png);
+}
